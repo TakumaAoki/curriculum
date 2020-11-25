@@ -1,0 +1,63 @@
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+ }
+
+ body {
+    min-height: 100%; 
+    height: 100%;
+}
+
+.wrapper{
+    margin: 0 auto;
+    height: 600px;
+    width: 600px;
+}
+
+.header{
+    height: 150px;
+    width: 600x;
+    background-color: #ffff00;
+}
+
+.a-1{
+    height: 150px;
+    width: 200px;
+    background-color: #33ffff;
+    float: left;
+}
+
+.a-2{
+    height: 150px;
+    width: 200px;
+    background-color: #ff0000;
+    float: left;
+}
+
+.a-3{
+    height: 150px;
+    width: 200px;
+    background-color: #0000ff;
+    float: left;
+}
+
+.b-1{
+    height: 150px;
+    width: 450px;
+    background-color: #00ff00;
+    float: left;
+}
+
+.b-2{
+    height: 150px;
+    width: 150px;
+    background-color: #ff00ff;
+    float: left;
+}
+
+.fooder{
+    height: 150px;
+    width: 600px;
+    background-color: #33ffff;
+}
