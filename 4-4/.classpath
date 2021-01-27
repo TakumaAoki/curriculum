@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/postgresql-42.2.18.jar" sourcepath="/var/folders/6d/7_p05wc5113dwjlh4kdj0r2c0000gn/T/.org.sf.feeling.decompiler1611754033914/source/postgresql-42.2.18-sources-1611755403398.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
