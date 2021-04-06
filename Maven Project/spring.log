@@ -1,0 +1,137 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.3.2.RELEASE)[0;39m
+
+[2m2021-04-04 10:31:51.895[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mc.e.s.s.SpringsecurityApplication       [0;39m [2m:[0;39m Starting SpringsecurityApplication on Takuma-mac.local with PID 7488 (/Users/aokitakuma/Desktop/curriculum/Maven Project/target/classes started by aokitakuma in /Users/aokitakuma/Desktop/curriculum/Maven Project)
+[2m2021-04-04 10:31:51.898[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mc.e.s.s.SpringsecurityApplication       [0;39m [2m:[0;39m No active profile set, falling back to default profiles: default
+[2m2021-04-04 10:31:51.935[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2m2021-04-04 10:31:51.935[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2m2021-04-04 10:31:52.493[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2m2021-04-04 10:31:52.545[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 42ms. Found 1 JPA repository interfaces.
+[2m2021-04-04 10:31:53.011[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+[2m2021-04-04 10:31:53.019[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2021-04-04 10:31:53.019[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.37]
+[2m2021-04-04 10:31:53.084[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2021-04-04 10:31:53.084[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1149 ms
+[2m2021-04-04 10:31:53.246[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2021-04-04 10:31:53.287[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2021-04-04 10:31:53.323[0;39m [33m WARN[0;39m [35m7488[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2021-04-04 10:31:53.330[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[         task-1][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 5.4.18.Final
+[2m2021-04-04 10:31:53.332[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[         task-1][0;39m [36morg.hibernate.cfg.Environment           [0;39m [2m:[0;39m HHH000205: Loaded properties from resource hibernate.properties: {hibernate.bytecode.use_reflection_optimizer=false, hibernate.jdbc.lob.non_contextual_creation=true}
+[2m2021-04-04 10:31:53.447[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2m2021-04-04 10:31:53.525[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+[2m2021-04-04 10:31:53.589[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+[2m2021-04-04 10:31:53.607[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[         task-1][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2m2021-04-04 10:31:54.094[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2021-04-04 10:31:54.099[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2021-04-04 10:31:54.362[0;39m [32mDEBUG[0;39m [35m7488[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    select
+        account0_.username as username1_1_,
+        account0_.created_at as created_2_1_,
+        account0_.enabled as enabled3_1_,
+        account0_.mail_address as mail_add4_1_,
+        account0_.mail_address_verified as mail_add5_1_,
+        account0_.password as password6_1_ 
+    from
+        accounts account0_
+[2m2021-04-04 10:31:54.381[0;39m [32mDEBUG[0;39m [35m7488[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    select
+        authoritie0_.account_username as account_1_0_0_,
+        authoritie0_.authorities as authorit2_0_0_ 
+    from
+        account_authorities authoritie0_ 
+    where
+        authoritie0_.account_username=?
+[2m2021-04-04 10:31:54.382[0;39m [32mTRACE[0;39m [35m7488[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.h.type.descriptor.sql.BasicBinder     [0;39m [2m:[0;39m binding parameter [1] as [VARCHAR] - [user]
+[2m2021-04-04 10:31:54.386[0;39m [32mDEBUG[0;39m [35m7488[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    select
+        authoritie0_.account_username as account_1_0_0_,
+        authoritie0_.authorities as authorit2_0_0_ 
+    from
+        account_authorities authoritie0_ 
+    where
+        authoritie0_.account_username=?
+[2m2021-04-04 10:31:54.386[0;39m [32mTRACE[0;39m [35m7488[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.h.type.descriptor.sql.BasicBinder     [0;39m [2m:[0;39m binding parameter [1] as [VARCHAR] - [manager]
+[2m2021-04-04 10:31:54.387[0;39m [32mDEBUG[0;39m [35m7488[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    select
+        authoritie0_.account_username as account_1_0_0_,
+        authoritie0_.authorities as authorit2_0_0_ 
+    from
+        account_authorities authoritie0_ 
+    where
+        authoritie0_.account_username=?
+[2m2021-04-04 10:31:54.387[0;39m [32mTRACE[0;39m [35m7488[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.h.type.descriptor.sql.BasicBinder     [0;39m [2m:[0;39m binding parameter [1] as [VARCHAR] - [admin]
+[2m2021-04-04 10:31:54.464[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@729eaec8, org.springframework.security.web.context.SecurityContextPersistenceFilter@7d1fbfd6, org.springframework.security.web.header.HeaderWriterFilter@571782d8, org.springframework.security.web.csrf.CsrfFilter@1948e60b, org.springframework.security.web.authentication.logout.LogoutFilter@4d372e2f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1330d83f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4341d8d3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@392bfc9a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6dc9015f, org.springframework.security.web.session.SessionManagementFilter@42b2ba9d, org.springframework.security.web.access.ExceptionTranslationFilter@62da9bb1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7b903223]
+[2m2021-04-04 10:31:54.493[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[         task-2][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2021-04-04 10:31:54.814[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+[2m2021-04-04 10:31:54.815[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mDeferredRepositoryInitializationListener[0;39m [2m:[0;39m Triggering deferred initialization of Spring Data repositories…
+[2m2021-04-04 10:31:54.816[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mDeferredRepositoryInitializationListener[0;39m [2m:[0;39m Spring Data repositories initialized!
+[2m2021-04-04 10:31:54.823[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mc.e.s.s.SpringsecurityApplication       [0;39m [2m:[0;39m Started SpringsecurityApplication in 3.21 seconds (JVM running for 3.826)
+[2m2021-04-04 10:32:02.994[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2021-04-04 10:32:02.995[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2021-04-04 10:32:03.004[0;39m [32m INFO[0;39m [35m7488[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 9 ms
+[2m2021-04-04 11:43:09.821[0;39m [33m WARN[0;39m [35m7488[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m45s749ms).
+[2m2021-04-04 11:44:26.121[0;39m [33m WARN[0;39m [35m7488[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m16s302ms).
+[2m2021-04-04 13:37:13.937[0;39m [33m WARN[0;39m [35m7488[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h52m47s816ms).
+[2m2021-04-04 14:16:48.663[0;39m [33m WARN[0;39m [35m7488[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m4s685ms).
+[2m2021-04-04 14:31:08.002[0;39m [33m WARN[0;39m [35m7488[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m19s339ms).
+[2m2021-04-04 15:21:26.876[0;39m [33m WARN[0;39m [35m7488[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=42m18s833ms).
+[2m2021-04-04 15:21:47.788[0;39m [32mDEBUG[0;39m [35m7488[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    select
+        account0_.username as username1_1_,
+        account0_.created_at as created_2_1_,
+        account0_.enabled as enabled3_1_,
+        account0_.mail_address as mail_add4_1_,
+        account0_.mail_address_verified as mail_add5_1_,
+        account0_.password as password6_1_ 
+    from
+        accounts account0_ 
+    where
+        account0_.username=?
+[2m2021-04-04 15:21:47.792[0;39m [32mTRACE[0;39m [35m7488[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.h.type.descriptor.sql.BasicBinder     [0;39m [2m:[0;39m binding parameter [1] as [VARCHAR] - [admin]
+[2m2021-04-04 15:21:47.799[0;39m [32mDEBUG[0;39m [35m7488[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    select
+        authoritie0_.account_username as account_1_0_0_,
+        authoritie0_.authorities as authorit2_0_0_ 
+    from
+        account_authorities authoritie0_ 
+    where
+        authoritie0_.account_username=?
+[2m2021-04-04 15:21:47.799[0;39m [32mTRACE[0;39m [35m7488[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.h.type.descriptor.sql.BasicBinder     [0;39m [2m:[0;39m binding parameter [1] as [VARCHAR] - [admin]
+[2m2021-04-04 15:25:42.503[0;39m [33m WARN[0;39m [35m7488[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m15s606ms).
+[2m2021-04-04 18:36:53.690[0;39m [33m WARN[0;39m [35m7488[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h10m41s178ms).
+[2m2021-04-04 22:37:42.174[0;39m [33m WARN[0;39m [35m7488[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h18s483ms).
+[2m2021-04-05 02:45:27.411[0;39m [33m WARN[0;39m [35m7488[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h7m45s228ms).
+[2m2021-04-05 06:38:36.777[0;39m [33m WARN[0;39m [35m7488[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h53m9s372ms).
+[2m2021-04-05 20:00:47.824[0;39m [33m WARN[0;39m [35m7488[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13h22m11s49ms).
+[2m2021-04-05 20:47:07.195[0;39m [33m WARN[0;39m [35m7488[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m19s63ms).
+[2m2021-04-05 21:17:48.475[0;39m [33m WARN[0;39m [35m7488[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m11s194ms).
+[2m2021-04-05 21:52:44.943[0;39m [33m WARN[0;39m [35m7488[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m56s453ms).
+[2m2021-04-05 22:32:11.073[0;39m [33m WARN[0;39m [35m7488[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m56s119ms).
+[2m2021-04-05 22:34:58.956[0;39m [32mDEBUG[0;39m [35m7488[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    select
+        account0_.username as username1_1_,
+        account0_.created_at as created_2_1_,
+        account0_.enabled as enabled3_1_,
+        account0_.mail_address as mail_add4_1_,
+        account0_.mail_address_verified as mail_add5_1_,
+        account0_.password as password6_1_ 
+    from
+        accounts account0_ 
+    where
+        account0_.username=?
+[2m2021-04-05 22:34:58.959[0;39m [32mTRACE[0;39m [35m7488[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36mo.h.type.descriptor.sql.BasicBinder     [0;39m [2m:[0;39m binding parameter [1] as [VARCHAR] - [admin]
+[2m2021-04-05 22:34:58.967[0;39m [32mDEBUG[0;39m [35m7488[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    select
+        authoritie0_.account_username as account_1_0_0_,
+        authoritie0_.authorities as authorit2_0_0_ 
+    from
+        account_authorities authoritie0_ 
+    where
+        authoritie0_.account_username=?
+[2m2021-04-05 22:34:58.967[0;39m [32mTRACE[0;39m [35m7488[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36mo.h.type.descriptor.sql.BasicBinder     [0;39m [2m:[0;39m binding parameter [1] as [VARCHAR] - [admin]
